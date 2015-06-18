@@ -2,11 +2,11 @@
 
 ### Purpose
 
-To provide developers with ready-to-deploy and up-to-date App Engine application samples so newbies can get started with the wide range of services/components App Engine is composed of while the more experienced ones can play with in order to test or troubleshoot use cases
+To provide Google Cloud developers with ready-to-deploy and up-to-date App Engine application samples covering the wide range of services/components App Engine is composed of. Newcomers can get started testing the platform while more experienced ones can test or troubleshoot use cases.
 
 ### Organization
 
-The repository initial directory structure has been designed to cover every App Engine SDK/language on each component/service or API. Here is what it looks like:
+The repository's initial directory structure has been designed to cover every App Engine SDK/language on each component/service or API. Here is what it looks like:
 
 ```
 .
