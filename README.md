@@ -6,13 +6,16 @@ To provide Google Cloud developers with ready-to-deploy and up-to-date App Engin
 
 ### Organization
 
-The repository's initial directory structure has been designed to cover every App Engine SDK/language on each component/service or API. Here is what it looks like:
+The repository's initial directory structure has been designed to cover every App Engine SDK/language on each component/service or API. Here is what it looks like for the python samples:
 
 ```
 .
 ├── go
+│   ├── ...
 ├── java
+│   ├── ...
 ├── php
+│   ├── ...
 ├── python
 │   ├── apis
 │   │   ├── app-identity
