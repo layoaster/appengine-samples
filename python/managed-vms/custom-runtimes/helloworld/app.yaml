@@ -1,0 +1,16 @@
+module: default
+runtime: custom
+vm: true
+api_version: 1
+threadsafe: yes
+manual_scaling:
+  instances: 1
+vm_settings:
+  machine_type: n1-standard-2
+
+health_check:
+  enable_health_check: False
+
+handlers:
+- url: .*
+  script: main.app
