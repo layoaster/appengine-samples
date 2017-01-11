@@ -1,11 +1,11 @@
 import webapp2
 
-from google.cloud import datastore
+from google.cloud import bigquery
 
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        client = datastore.Client()
+        client = bigquery.Client()
         self.response.headers['Content-Type'] = 'text/plain'
         self.response.write('Hello, World!')
 
